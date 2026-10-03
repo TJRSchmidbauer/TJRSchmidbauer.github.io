@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tobias Schmidbauer · Lehrer, Maker &amp; Nerd</title>
+  <meta name="description" content="Tobias Schmidbauer – Gymnasiallehrer für Mathematik und Physik in Bayern, Maker, 3D-Druck- und Elektronik-Nerd. Private Website mit Projekten und Lebenslauf.">
+  <meta property="og:title" content="Tobias Schmidbauer · Lehrer, Maker &amp; Nerd">
+  <meta property="og:description" content="Tüfteln, Coden, Drucken – Technik zum Anfassen.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/portrait.jpeg">
+  <link rel="icon" type="image/jpeg" href="assets/portrait.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top">ts<span>.</span></a>
+    <nav class="nav__links" aria-label="Hauptnavigation">
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#lebenslauf">Lebenslauf</a>
+      <a href="#maker">Maker-Ecke</a>
+      <a href="#projekte">Projekte</a>
+      <a href="#kontakt" class="nav__cta">Kontakt</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="hero__eyebrow"><span class="pulse"></span> Mathe · Physik · Schach · Robotik</p>
+        <h1>Hey, ich bin <span class="grad">Tobias&nbsp;Schmidbauer</span>.</h1>
+        <p class="hero__sub">
+          Lehrer am Gymnasium, gelernter Mechatroniker und leidenschaftlicher Maker.
+          Wenn ich nicht gerade Unterricht vorbereite, schwinge ich den Lötkolben,
+          drucke in 3D oder jage Bugs durch den Code.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projekte">Projekte ansehen</a>
+          <a class="btn btn--ghost" href="#lebenslauf">Lebenslauf</a>
+        </div>
+        <ul class="hero__socials" aria-label="Profile im Netz">
+          <li><a href="https://github.com/TJRSchmidbauer" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.36.78 1.05.78 2.13v3.16c0 .31.2.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></li>
+          <li><a href="https://makerworld.com/de/@Schmidbauer" target="_blank" rel="noopener" aria-label="MakerWorld">
+            <svg viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5v-13zm3 2v9h2.5v-6l2 3.5 2-3.5v6H16v-9h-2.6l-1.9 3.3-1.9-3.3H7z"/></svg></a></li>
+          <li><a href="https://bsky.app/profile/schmidbauer.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky">
+            <svg viewBox="0 0 24 24"><path d="M12 10.8c-1.1-2-4.1-4.6-5.7-3.8-1.6.8-.9 3.6-1.2 6.6.8-.4 2.1-.4 3.2.4-1-.1-2.3.3-2.6 1.5 2.7-1 4.6.6 5.7-1.4a9 9 0 0 0 .6-3.3zm0 0c1.1-2 4.1-4.6 5.7-3.8 1.6.8.9 3.6 1.2 6.6-.8-.4-2.1-.4-3.2.4 1-.1 2.3.3 2.6 1.5-2.7-1-4.6.6-5.7-1.4a9 9 0 0 1-.6-3.3z"/></svg></a></li>
+          <li><a href="https://www.instagram.com/tjr.schmidbauer" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2a3.8 3.8 0 0 1-2.3 2.3c-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4a3.8 3.8 0 0 1-2.3-2.3c-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 4.6a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 8.6a3.4 3.4 0 1 1 0-6.8 3.4 3.4 0 0 1 0 6.8zm5.4-8.8a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg></a></li>
+          <li><a href="https://x.com/ma__phy" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-4.9-6.4L6.4 22H3.3l7.3-8.3L2.8 2h6.4l4.5 5.9L18.9 2zm-1.1 18h1.7L7.6 3.8H5.8L17.8 20z"/></svg></a></li>
+        </ul>
+      </div>
+      <div class="hero__portrait">
+        <div class="hero__portrait-ring"></div>
+        <img src="assets/portrait.jpeg" alt="Porträt von Tobias Schmidbauer" width="420" height="420">
+        <div class="hero__badge hero__badge--1">🔧 Mechatroniker</div>
+        <div class="hero__badge hero__badge--2">⚛️ B.Sc. Physik</div>
+        <div class="hero__badge hero__badge--3">🖨️ 3D-Druck</div>
+      </div>
+    </section>
+
+    <!-- ============ ÜBER MICH ============ -->
+    <section class="section" id="ueber-mich">
+      <p class="section__eyebrow">// 01 — Über mich</p>
+      <h2 class="section__title">Vom Schraubendreher zum Formelzeichen</h2>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            Ich bin technikbegeisterter, humorvoller und ziemlich experimentierfreudiger
+            <strong>Lehrer für Mathematik, Physik, Schach und Robotik</strong> an einem
+            Gymnasium in Regensburg. Bevor ich Mathematik und Physik studiert habe,
+            habe ich eine Ausbildung zum Mechatroniker gemacht – die Kombination aus
+            Schraubendreher, Oszilloskop und später Formelzeichen passt bis heute
+            ziemlich gut zu dem, was ich so treibe.
+          </p>
+          <p>
+            Wenn ich nicht gerade Unterricht vorbereite oder mit Schülerinnen und Schülern
+            an neuen Ideen tüftele, programmiere ich, bastle an Elektronikprojekten oder
+            probiere neue digitale Werkzeuge aus. Ich mag klare Strukturen, einfache
+            Lösungen und einen Schuss Humor – egal ob im Klassenraum, im Code oder auf
+            dem Steckbrett.
+          </p>
+          <p class="about__note">
+            ⚠️ <strong>Rein privat:</strong> Diese Seite ist ein privates Angebot und steht in
+            keinem Zusammenhang mit meinem Dienstherrn oder einer Schule. Alle Inhalte,
+            Einschätzungen und Meinungen sind ausschließlich meine persönliche, private Sicht.
+          </p>
+        </div>
+        <div class="about__skills">
+          <h3>Werkzeugkasten</h3>
+          <ul class="chips">
+            <li>Python</li><li>JavaScript</li><li>LaTeX</li><li>Docker</li>
+            <li>Home Assistant</li><li>ESP32</li><li>3D-Druck</li><li>Lasercutting</li>
+            <li>Elektronik</li><li>Robotik</li><li>Schach</li><li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEBENSLAUF ============ -->
+    <section class="section" id="lebenslauf">
+      <p class="section__eyebrow">// 02 — Lebenslauf</p>
+      <h2 class="section__title">Mein Weg</h2>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__period">seit 2018</span>
+            <h3>Lehrer am Gymnasium</h3>
+            <p>Studienrat für Mathematik, Physik, Schach und Robotik an einem Gymnasium in Bayern.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__period">Referendariat</span>
+            <h3>Vorbereitungsdienst</h3>
+            <p>Referendariat für das Lehramt an Gymnasien in Bayern.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__period">Studium</span>
+            <h3>Mathematik &amp; Physik</h3>
+            <p>Studium mit Abschluss <em>Bachelor of Science Physik</em> und Erstem Staatsexamen für das Lehramt.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__period">BOS</span>
+            <h3>Berufliche Oberschule</h3>
+            <p>Fachhochschulreife, fachgebundene Hochschulreife und – dank Latein als zweiter Fremdsprache – allgemeine Hochschulreife.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__period">Ausbildung</span>
+            <h3>Mechatroniker</h3>
+            <p>Berufsausbildung zum Mechatroniker – Mechanik, Elektronik und Steuerungstechnik von der Pike auf.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__period">Schulzeit</span>
+            <h3>Realschule</h3>
+            <p>Mittlere Reife – der Startpunkt von allem.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ MAKER ============ -->
+    <section class="section" id="maker">
+      <p class="section__eyebrow">// 03 — Maker-Ecke</p>
+      <h2 class="section__title">Tüfteln, Coden, Drucken</h2>
+      <p class="section__lead">
+        Ich bin ein etwas nerdiger Maker und liebe es zu basteln: 3D-Druck, Lasern,
+        ESP32-Spielereien und alles, was blinkt, piept oder sich bewegt.
+      </p>
+      <div class="maker-grid">
+        <article class="maker-card">
+          <div class="maker-card__icon">🖨️</div>
+          <h3>3D-Druck</h3>
+          <p>Eigene Modelle und nützliche Prints – meine Designs gibt es auf MakerWorld.</p>
+          <a href="https://makerworld.com/de/@Schmidbauer" target="_blank" rel="noopener" class="link-arrow">MakerWorld-Profil →</a>
+        </article>
+        <article class="maker-card">
+          <div class="maker-card__icon">⚡</div>
+          <h3>ESP32 &amp; Elektronik</h3>
+          <p>Sensoren, Displays und smarte Kleinigkeiten – vom Breadboard bis zur fertigen Platine.</p>
+        </article>
+        <article class="maker-card">
+          <div class="maker-card__icon">🏠</div>
+          <h3>Home Assistant</h3>
+          <p>Smart Home ohne Cloud-Zwang: DIY-Multiroom-Audio, Automatisierungen und ESPHome.</p>
+        </article>
+        <article class="maker-card">
+          <div class="maker-card__icon">🔥</div>
+          <h3>Laser &amp; Werkstatt</h3>
+          <p>Lasercutting, Löten und alles, was in der Bastel-Ecke sonst noch so anfällt.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROJEKTE ============ -->
+    <section class="section" id="projekte">
+      <p class="section__eyebrow">// 04 — Projekte</p>
+      <h2 class="section__title">Ausgewählte Projekte</h2>
+      <p class="section__lead">Eigene Softwarelösungen, Tools und Work-in-Progress aus der Nerd-Ecke.</p>
+      <div class="projects" id="projects-grid">
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder">📁</span>
+            <a href="https://github.com/TJRSchmidbauer/Plotoria" target="_blank" rel="noopener" class="project-card__github" aria-label="Auf GitHub ansehen">↗</a>
+          </div>
+          <h3>Plotoria</h3>
+          <p>Eigenes JavaScript-Projekt – interaktive Visualisierung und mehr.</p>
+          <span class="tag">JavaScript</span>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder">📁</span>
+            <a href="https://github.com/TJRSchmidbauer/HeiLaut-Sensoren" target="_blank" rel="noopener" class="project-card__github" aria-label="Auf GitHub ansehen">↗</a>
+          </div>
+          <h3>HeiLaut-Sensoren</h3>
+          <p>C++-Sensorik-Projekt: Messwerte erfassen, verarbeiten und sichtbar machen.</p>
+          <span class="tag">C++</span>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder">📁</span>
+            <a href="https://github.com/TJRSchmidbauer/Vectronix" target="_blank" rel="noopener" class="project-card__github" aria-label="Auf GitHub ansehen">↗</a>
+          </div>
+          <h3>Vectronix</h3>
+          <p>Web-Projekt rund um Vektoren – Technik zum Anfassen, direkt im Browser.</p>
+          <span class="tag">HTML</span>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder">📁</span>
+            <a href="https://github.com/TJRSchmidbauer/pinslim" target="_blank" rel="noopener" class="project-card__github" aria-label="Auf GitHub ansehen">↗</a>
+          </div>
+          <h3>pinslim</h3>
+          <p>Arduino-, ESP32- &amp; Raspberry-Pi-Emulator im Browser – 19 echte Boards, keine Hardware nötig.</p>
+          <span class="tag">TypeScript</span>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder">📁</span>
+            <a href="https://schmidbauer.io/" target="_blank" rel="noopener" class="project-card__github" aria-label="Zum Blog">↗</a>
+          </div>
+          <h3>Schaltplandesigner</h3>
+          <p>DER Schaltplandesigner für Lehrkräfte – vorgestellt auf meinem Blog schmidbauer.io.</p>
+          <span class="tag">Tool</span>
+        </article>
+        <article class="project-card project-card--more">
+          <div class="project-card__top"><span class="project-card__folder">✦</span></div>
+          <h3>Mehr auf GitHub</h3>
+          <p>Alle Repositories, Forks und Experimente gibt es in meinem GitHub-Profil.</p>
+          <a href="https://github.com/TJRSchmidbauer?tab=repositories" target="_blank" rel="noopener" class="link-arrow">Alle Repos →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ KONTAKT ============ -->
+    <section class="section section--contact" id="kontakt">
+      <p class="section__eyebrow">// 05 — Kontakt</p>
+      <h2 class="section__title">Lust auf Austausch?</h2>
+      <p class="section__lead">
+        Ob Kolleginnen und Kollegen, Technik-Nerds oder neugierige Menschen –
+        ich freue mich über Nachrichten, Ideen und Feedback.
+      </p>
+      <div class="contact-actions">
+        <a class="btn btn--primary" href="https://schmidbauer.io/contact-us/" target="_blank" rel="noopener">Kontaktformular</a>
+        <a class="btn btn--ghost" href="https://github.com/TJRSchmidbauer" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="https://schmidbauer.io/" target="_blank" rel="noopener">Blog: schmidbauer.io</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__disclaimer">
+      Private Website. Alle Inhalte geben ausschließlich meine persönliche Meinung wieder
+      und stellen keine offiziellen Stellungnahmen irgendeiner Institution, Behörde oder Schule dar.
+    </p>
+    <nav class="footer__links" aria-label="Rechtliches">
+      <a href="https://schmidbauer.io/impressum/" target="_blank" rel="noopener">Impressum</a>
+      <a href="https://schmidbauer.io/privacy-policy/" target="_blank" rel="noopener">Datenschutz</a>
+      <a href="https://github.com/TJRSchmidbauer/TJRSchmidbauer.github.io" target="_blank" rel="noopener">Quellcode auf GitHub</a>
+    </nav>
+    <p class="footer__copy">© <span id="year">2026</span> Tobias Schmidbauer · Gebaut mit ♥, ☕ und GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
