@@ -249,12 +249,12 @@ body {
   inset: -14px;
   border-radius: 32px;
   background: var(--grad);
-  opacity: .35;
+  opacity: .15;
   filter: blur(22px);
   z-index: 0;
   animation: glow 5s ease-in-out infinite alternate;
 }
-@keyframes glow { to { opacity: .6; } }
+@keyframes glow { to { opacity: .3; } }
 
 .hero__badge {
   position: absolute;
